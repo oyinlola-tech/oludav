@@ -20,28 +20,3 @@ navToggle.addEventListener('click', () => {
   nav.classList.toggle('show');
 });
 
-// Contact Form Validation
-const form = document.querySelector('.contact-form');
-form.addEventListener('submit', e => {
-  e.preventDefault();
-  
-  const name = form.querySelector('input[type="text"]').value.trim();
-  const email = form.querySelector('input[type="email"]').value.trim();
-  const message = form.querySelector('textarea').value.trim();
-
-  if (!name || !email || !message) {
-    alert('Please fill in all fields.');
-    return;
-  }
-
-  // Simple Email Validation
-  const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-  if (!email.match(emailPattern)) {
-    alert('Please enter a valid email address.');
-    return;
-  }
-
-  // If you want to actually send emails, integrate EmailJS or backend here
-  alert('Thank you, your message has been submitted!');
-  form.reset();
-});
