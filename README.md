@@ -4,7 +4,7 @@ A responsive personal portfolio website for **Igbekele Olumide David**, showcasi
 
 ---
 
-##  Features  
+##  Features   
 
 - **Hero Section** – Introduction with profile picture, name, and a quick summary.  
 - **About Me** – Short biography and professional journey.  
