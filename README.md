@@ -3,7 +3,6 @@
 A responsive personal portfolio website for **Igbekele Olumide David**, showcasing his background, skills, education, work experience, and projects. Built with **HTML, CSS, and JavaScript**.  
 
 ---
-
    
 ##  Features   
 
